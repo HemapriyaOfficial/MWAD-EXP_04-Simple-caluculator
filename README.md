@@ -65,7 +65,7 @@ export default function Calculator() {
 
   const handleCalculate = () => {
     try {
-      setInput(eval(input).toString()); // simple calculation
+      setInput(eval(input).toString()); 
     } catch {
       setInput("Error");
     }
